@@ -24,8 +24,8 @@ header .intro-chunk {
 }
 
 header .title {
-  padding-bottom: 32px;
   font-size: 1.75rem;
+  padding-bottom: 32px;
 }
 
 header strong {
@@ -38,8 +38,8 @@ header p {
 
 main {
   background-color: hsl(0deg, 0%, 60%);
-  padding: 64px 0;
   border-top: 8px solid hsl(0deg, 0%, 40%);
+  padding: 64px 0;
 }
 
 .card {
@@ -49,10 +49,10 @@ main {
 }
 
 .indented-heading {
-  width: fit-content;
-  padding: 16px 36px;
-  margin: 0 0 16px -36px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
   font-size: 1.25rem;
+  margin: 0 0 16px -36px;
+  padding: 16px 36px;
+  width: fit-content;
 }
