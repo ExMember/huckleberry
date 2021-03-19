@@ -15,7 +15,7 @@ body {
 }
 
 header {
-  padding: 64px 0 64px 0;
+  padding: 64px 0;
 }
 
 header .intro-chunk {
@@ -23,13 +23,13 @@ header .intro-chunk {
   padding: 0 24px;
 }
 
-header strong {
-  color: hsl(160deg, 100%, 30%);
+header .title {
+  padding-bottom: 32px;
+  font-size: 1.75rem;
 }
 
-header .title {
-  padding: 0 0 32px 0;
-  font-size: 1.75rem;
+header strong {
+  color: hsl(160deg, 100%, 30%);
 }
 
 header p {
@@ -51,8 +51,7 @@ main {
 .indented-heading {
   width: fit-content;
   padding: 16px 36px;
-  margin-top: 0;
-  margin-left: -36px;
+  margin: 0 0 16px -36px;
   background-color: hsl(45deg, 100%, 50%);
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
   font-size: 1.25rem;
